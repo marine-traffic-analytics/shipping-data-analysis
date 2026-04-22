@@ -15,7 +15,7 @@ ticks = ["XLE", # ~25 largest US energy stocks (most liquid)
 
 start = "2017-01-01"
 end = "2023-01-01"
-interval = "1wk" # or "1d"
+interval = "1d" # or "1wk"
 
 for tick in ticks:
     df = yf.download(
